@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-mongoose.connect("mongodb+srv://admin:71biE7JBLvzWdmLg@cluster0.fkkoc4h.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("uri")
 .then(()=>console.log("database connected"));
 const userSchema = new mongoose.Schema({
   username: {
